@@ -13,7 +13,7 @@ import math
 from typing import Optional
 from track_rotation import get_rotation
 
-def plot_track_map(year: int, circuit: str, driver: str, target_lap: int, session_type:str = "R"):
+def plot_track_map(year: int, circuit: str, driver: str, target_lap: int, session_type:str = "R", sector_markers:bool = False):
     plotting.setup_mpl()
 
     absolute_path = os.path.abspath('')
@@ -140,6 +140,17 @@ def plot_track_map(year: int, circuit: str, driver: str, target_lap: int, sessio
         # Add a black outline, and filled colored line
         plt.plot([x1, x2], [y1, y2], color='black', linewidth=15, zorder=2, antialiased=True)
         plt.plot([x1, x2], [y1, y2], color=color, linewidth=4, zorder=3, antialiased=True)
+
+        if sector_markers:
+            dx = x2 - x1
+            dy = y2 - y1
+
+            angle = np.degrees(np.arctan2(dy, dx))
+            if angle < 0:
+                angle += 180
+            if (x1, y1) in zip(x_track.flatten(), y_track.flatten()):
+                plt.annotate("|", (x1, y1), color='white', fontsize=40, fontweight='bold', ha='center', va='center', rotation=angle, zorder=4, bbox=dict(facecolor='none', edgecolor='none', linewidth=200))
+
     
     plt.suptitle(f"{session.event['EventName']} {session.event.year} Track Map", fontsize=20)
 

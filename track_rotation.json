@@ -1,0 +1,134 @@
+[
+    {
+      "country": "Bahrain",
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "rotation": 0.51
+    },
+    {
+      "country": "Saudi Arabia",
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "rotation": 0.60
+    },
+    {
+      "country": "Australia",
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "rotation": 0.24
+    },
+    {
+      "country": "Azerbaijan",
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "rotation": 1.72
+    },
+    {
+      "country": "USA",
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "rotation": 0.00
+    },
+    {
+      "country": "Monaco",
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "rotation": 1.75
+    },
+    {
+      "country": "Spain",
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "rotation": 1.68
+    },
+    {
+      "country": "Canada",
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "rotation": 0.38
+    },
+    {
+      "country": "Austria",
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "rotation": 0.15
+    },
+    {
+      "country": "Britain",
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "rotation": 1.48
+    },
+    {
+      "country": "Hungary",
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hongaroring",
+      "rotation": 1.72
+    },
+    {
+      "country": "Belgium",
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "rotation": 0.50
+    },
+    {
+      "country": "Dutch",
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "rotation": 1.00
+    },
+    {
+      "country": "Italy",
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "rotation": 0.52
+    },
+    {
+      "country": "Signapore",
+      "raceName": "Signapore Grand Prix",
+      "circuitId": "marina_bay",
+      "rotation": 0.00
+    },
+    {
+      "country": "Japan",
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "rotation": 0.00
+    },
+    {
+      "country": "Qatar",
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "rotation": 0.34
+    },
+    {
+      "country": "USA",
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "rotation": 0.00
+    },
+    {
+      "country": "Mexico",
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "rotation": 0.04
+    },
+    {
+      "country": "Brazil",
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "rotation": 1.50
+    },
+    {
+      "country": "USA",
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "rotation": 0.00
+    },
+    {
+      "country": "UAE",
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina", 
+      "rotation": 1.45
+      }
+]
